@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct ScrumApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+           WindowGroup {
+               ScrumsView(scrums: DailyScrum.data)
+           }
+       }
 }
